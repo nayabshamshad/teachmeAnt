@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1.41cm" height="1.28cm" viewBox="0 0 40 36.16">
+  <defs>
+    <style>
+      .cls-1 {
+        isolation: isolate;
+      }
+
+      .cls-2 {
+        mix-blend-mode: hue;
+      }
+
+      .cls-3 {
+        fill: purple;
+      }
+    </style>
+  </defs>
+  <title>topquote</title>
+  <g class="cls-1">
+    <g id="Layer_1" data-name="Layer 1">
+      <g class="cls-2">
+        <path class="cls-3" d="M16,36.16H0V18.92A18.11,18.11,0,0,1,16,0V7.43c-5.75,1.91-7.43,5.86-7.43,11.38H16Zm24,0H24V18.92A18.11,18.11,0,0,1,40,0V7.43c-5.74,1.91-7.43,5.86-7.43,11.38H40Z"/>
+      </g>
+    </g>
+  </g>
+</svg>
