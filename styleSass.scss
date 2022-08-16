@@ -10,7 +10,7 @@ body {
 	font-family: 'Acumin Pro';
 	font-size: 1.125rem;
 	src: local('Acumin Pro'),
-	url('Acumin-RPro.woff') format('woff');
+		url('Acumin-RPro.woff') format('woff');
 	line-height: 1.5;
 	color: $text-color;
 	text-align: left;
@@ -73,6 +73,7 @@ a {
 	transition: all .5s ease;
 	border-radius: 0;
 }
+
 
 header {
 	position: relative;
@@ -204,17 +205,18 @@ header {
 
 .logo {
 	position: absolute;
-    left: 0;
-    top: -28px;
-    background: url(./imgs/logo-flag.svg) no-repeat;
-    width: 160px;
-    height: 180px;
+	left: 0;
+	top: -28px;
+	background: url(./imgs/logo-flag.svg) no-repeat top center;
+	background-size: contain;
+	width: 160px;
+	height: 180px;
 
 	img {
 		position: relative;
 		left: 50%;
 		width: 65%;
-		top: 70px;
+		top: 50px;
 		transform: translateX(-50%);
 	}
 
@@ -256,8 +258,8 @@ header {
 
 .home-top-area {
 	position: relative;
+	padding-top: 50px;
 	z-index: 3;
-	margin-top: 52px;
 
 	.buttons {
 		a {
@@ -285,7 +287,7 @@ header {
 	}
 
 	#h1 {
-		font-size: 37px !important;
+		font-size: 60px !important;
 	}
 }
 
@@ -326,9 +328,7 @@ header {
 }
 
 .largest-title {
-	font-size: 3.75rem !important;
-	font-size: 57px;
-	font-size: 2.3rem;
+	font-size: 4rem !important;
 }
 
 .increase-line-height {
@@ -344,7 +344,7 @@ h1 {
 }
 
 .font-weight-extra-light {
-	font-weight: $bold;
+	font-weight:bold;
 
 }
 
@@ -619,7 +619,8 @@ p {
 		width: 100%;
 		height: 100%;
 	}
-	img{
+
+	img {
 		margin-top: 18px;
 	}
 
@@ -1169,7 +1170,6 @@ textarea.form-control {
 	cursor: pointer;
 	border-bottom: 10px solid transparent;
 	margin-bottom: 30px;
-
 	.icon {
 		position: relative;
 		height: 150px;
@@ -1278,14 +1278,20 @@ textarea.form-control {
 
 .price-from-container.new {
 	.price-from {
-		font-size: $font-sizeseven;
+		font-size: 7rem;
 		line-height: 8rem;
 		font-weight: 400;
 		margin-bottom: 0;
 
 		sup {
-			@extend .price-from;
+			font-weight: 400;
+			font-size: 4rem;
 			top: -6px;
+		}
+
+		small {
+			font-size: 1.5rem;
+			line-height: normal;
 		}
 	}
 }
@@ -1313,7 +1319,7 @@ textarea.form-control {
 
 		margin-left: 2rem;
 		font-size: 1.25rem;
-		color: black !important;
+		color: black ;
 	}
 
 	position: absolute;
@@ -1342,6 +1348,7 @@ textarea.form-control {
 
 	.price-from-container.new {
 		.price-from {
+			font-size: 12rem;
 			line-height: 12rem;
 			font-weight: 600;
 		}
@@ -1366,7 +1373,7 @@ textarea.form-control {
 		border-color: $primary-color;
 
 		.icon {
-			span.origicon{
+			span.origicon {
 				display: none;
 			}
 
@@ -1395,12 +1402,12 @@ textarea.form-control {
 			height: 100%;
 		}
 
-		span.origicon{
+		span.origicon {
 			display: block;
 		}
 
 		span.hovericon {
-			display:none;
+			display: none;
 		}
 	}
 
@@ -1449,6 +1456,7 @@ textarea.form-control {
 			border-bottom-right-radius: 0;
 			border-bottom-left-radius: 0;
 		}
+
 		background: $background-color;
 		border: 1px solid $color;
 		margin-bottom: 1rem;
@@ -1529,7 +1537,15 @@ h2 {
 		width: 360px !important;
 	}
 }
-
+.site-details-area{
+	.mb-4{
+		color: $primary-color;
+	}
+	.btn{
+		background-color: $primary-color;
+		border-color: $primary-color;
+	}
+}
 @media (max-width: 992px) {
 	.home-top-area {
 		.buttons {

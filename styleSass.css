@@ -27,20 +27,20 @@ a:hover {
 }
 
 .text-primary {
-  color: purple !important;
+  color: #d40024 !important;
 }
 
 .btn-primary {
-  background-color: purple;
-  border-color: purple;
+  background-color: #d40024;
+  border-color: #d40024;
   color: #fff;
-  background-color: purple;
-  border-color: purple;
+  background-color: #d40024;
+  border-color: #d40024;
   color: #fff;
 }
 .btn-primary:hover {
-  background-color: purple;
-  border-color: purple;
+  background-color: #d40024;
+  border-color: #d40024;
   color: #fff;
 }
 
@@ -72,7 +72,7 @@ header .top-bar nav a {
 }
 header .top-bar nav #link::before {
   content: "|";
-  color: purple;
+  color: #d40024;
   margin: 0 10px 0 7px;
 }
 header .inner-content {
@@ -116,7 +116,7 @@ header .main-nav .btn {
 }
 .container > .subjects-menu > li::before {
   content: "|";
-  color: purple;
+  color: #d40024;
   margin-right: 5px;
   margin-left: 5px;
 }
@@ -141,14 +141,14 @@ header .main-nav .btn {
   content: "";
   width: 100px;
   height: 1px;
-  background: purple;
+  background: #d40024;
   position: absolute;
   top: 10px;
   left: 0;
   content: "";
   width: 100px;
   height: 1px;
-  background: purple;
+  background: #d40024;
   position: absolute;
   top: 10px;
   left: 0;
@@ -162,13 +162,14 @@ header .main-nav .btn {
   top: 3px;
   left: 0;
   content: "+";
-  color: purple;
+  color: #d40024;
 }
 
 .logo {
   position: absolute;
   left: 0;
   top: -28px;
+  background: url(./imgs/logo-flag.svg) no-repeat top center;
   background-size: contain;
   width: 160px;
   height: 180px;
@@ -177,7 +178,7 @@ header .main-nav .btn {
   position: relative;
   left: 50%;
   width: 65%;
-  top: 70px;
+  top: 50px;
   transform: translateX(-50%);
 }
 .logo .h1 {
@@ -212,8 +213,8 @@ header .main-nav .btn {
 
 .home-top-area {
   position: relative;
+  padding-top: 50px;
   z-index: 3;
-  margin-top: 52px;
 }
 .home-top-area .buttons a {
   margin-right: 10px;
@@ -235,7 +236,7 @@ header .main-nav .btn {
   height: auto;
 }
 .home-top-area #h1 {
-  font-size: 37px !important;
+  font-size: 60px !important;
 }
 
 #mainContent h1 {
@@ -267,9 +268,7 @@ header .main-nav .btn {
 }
 
 .largest-title {
-  font-size: 3.75rem !important;
-  font-size: 57px;
-  font-size: 2.3rem;
+  font-size: 4rem !important;
 }
 
 .increase-line-height {
@@ -284,7 +283,7 @@ h1 {
 }
 
 .font-weight-extra-light {
-  font-weight: 200;
+  font-weight: bold;
 }
 
 .title-underline {
@@ -293,7 +292,7 @@ h1 {
 .title-underline::after {
   height: 4px;
   width: 100px;
-  background: purple;
+  background: #d40024;
   content: " ";
   display: block;
   margin-top: 40px;
@@ -325,7 +324,7 @@ h1 {
 
 .bg-success {
   color: #fff !important;
-  background-color: purple !important;
+  background-color: #d40024 !important;
 }
 
 .angle-bottom {
@@ -359,11 +358,11 @@ h1 {
 }
 
 .bg-success.angle-top::before {
-  background: purple;
+  background: #d40024;
 }
 
 .bg-success.angle-bottom::after {
-  background: purple;
+  background: #d40024;
 }
 
 .increased-line-height {
@@ -468,7 +467,7 @@ p:last-child {
   word-wrap: break-word;
 }
 .shadow-box .rating {
-  color: purple;
+  color: #d40024;
   margin-top: 16px;
 }
 .shadow-box .inner-content.full-width {
@@ -543,7 +542,7 @@ p:last-child {
   left: 50%;
 }
 .category-icon .category-topics {
-  color: purple;
+  color: #d40024;
   font-size: 1.125rem;
   white-space: nowrap;
 }
@@ -554,7 +553,7 @@ p:last-child {
   width: 100%;
   height: 100%;
   z-index: 2;
-  color: purple;
+  color: #d40024;
 }
 
 .on-top {
@@ -770,7 +769,7 @@ blockquote::before {
 
 input[type=radio] {
   box-sizing: border-box;
-  color: purple;
+  color: #d40024;
 }
 
 .custom-control-input {
@@ -957,7 +956,7 @@ textarea.form-control {
   font-weight: 200;
 }
 .btn-send:hover {
-  border-color: purple !important;
+  border-color: #d40024 !important;
 }
 
 .crop-ipad {
@@ -1075,14 +1074,20 @@ textarea.form-control {
   padding: 2rem 1.5rem;
 }
 
-.price-from-container.new .price-from, .price-from-container.new .price-from sup {
-  font-size: 4rem;
+.price-from-container.new .price-from {
+  font-size: 7rem;
   line-height: 8rem;
   font-weight: 400;
   margin-bottom: 0;
 }
 .price-from-container.new .price-from sup {
+  font-weight: 400;
+  font-size: 4rem;
   top: -6px;
+}
+.price-from-container.new .price-from small {
+  font-size: 1.5rem;
+  line-height: normal;
 }
 
 .view-features {
@@ -1093,7 +1098,7 @@ textarea.form-control {
   color: #32323c;
 }
 .view-features a:hover {
-  color: purple;
+  color: #d40024;
   text-decoration: underline;
 }
 
@@ -1107,10 +1112,10 @@ textarea.form-control {
 .other-signups a {
   margin-left: 2rem;
   font-size: 1.25rem;
-  color: black !important;
+  color: black;
 }
 .other-signups a:hover {
-  color: purple;
+  color: #d40024;
   text-decoration: underline;
 }
 
@@ -1119,7 +1124,7 @@ textarea.form-control {
   top: -20px;
   left: 50%;
   transform: translateX(-50%);
-  background: purple;
+  background: #d40024;
   color: #fff;
   font-size: 0.875rem;
   padding: 0.5rem 2rem;
@@ -1129,7 +1134,8 @@ textarea.form-control {
 .best-value-area .title {
   padding-top: 2.5rem;
 }
-.best-value-area .price-from-container.new .price-from, .best-value-area .price-from-container.new .price-from sup {
+.best-value-area .price-from-container.new .price-from {
+  font-size: 12rem;
   line-height: 12rem;
   font-weight: 600;
 }
@@ -1145,9 +1151,9 @@ textarea.form-control {
   transition: all 0.5s ease;
 }
 .feature-box:hover {
-  background-color: purple;
+  background-color: #d40024;
   color: #fff;
-  border-color: purple;
+  border-color: #d40024;
 }
 .feature-box:hover .icon span.origicon {
   display: none;
@@ -1187,7 +1193,7 @@ textarea.form-control {
 }
 .feature-title span {
   display: block;
-  color: purple;
+  color: #d40024;
   text-transform: uppercase;
   margin-bottom: 0.125rem;
   transition: all 0.5s ease;
@@ -1259,14 +1265,14 @@ textarea.form-control {
 }
 
 .btn-success {
-  background-color: purple;
-  border-color: purple;
+  background-color: #d40024;
+  border-color: #d40024;
   color: #fff;
   font-weight: 200;
 }
 .btn-success:hover {
-  background-color: purple;
-  border-color: purple;
+  background-color: #d40024;
+  border-color: #d40024;
   color: #fff;
   font-weight: 200;
 }
@@ -1288,6 +1294,14 @@ h2 {
 
 #crop-ipad img {
   width: 360px !important;
+}
+
+.site-details-area .mb-4 {
+  color: #d40024;
+}
+.site-details-area .btn {
+  background-color: #d40024;
+  border-color: #d40024;
 }
 
 @media (max-width: 992px) {

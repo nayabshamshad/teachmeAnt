@@ -1,46 +1,27 @@
 // // // colors
-$primary-color:purple;
+$primary-color: #d40024;
 $background-color: #fff;
 $color: #f2f2f2;
 $text-color: #32323c;
-// // font-size
-// $font-size: .5rem;
-// $font-sizezero: 0.75rem;
-// $font-sizeone: 0.875rem;
 $font-sizetwo: 1rem;
-// $font-sizethree: 1.25rem;
-// $font-sizefour: 1.5rem;
-// $font-sizefive: 2.5rem;
-// $font-sizesix: 3rem;
 $font-sizeseven: 4rem;
 // // .font-weight
 $bold: 200;
 $medium: 500;
 $bolder: 700;
-// $font-weights: (
-// 	"bold": 200,
-// 	"medium": 500,
-// 	"bolder": 700
-// );
-// // width , height
-// $width: 100%;
-// $max-width: 100%;
-// $height:100%;
-// @mixin color {
-//     background-color: $background-color;
-//     color: $text-color;
-// }
+
 @mixin hover {
-text-decoration: none;
-color: inherit;
-opacity: .7;
+    text-decoration: none;
+    color: inherit;
+    opacity: .7;
 }
+
 @mixin body {
-	font-family: 'Acumin Pro';
+    font-family: 'Acumin Pro';
     font-size: 400;
     src: local('Acumin Pro'), url('Acumin-RPro.woff') format('woff');
     line-height: 1.5;
     color: $text-color;
     text-align: left;
-    background-color:$background-color;
+    background-color: $background-color;
 }
